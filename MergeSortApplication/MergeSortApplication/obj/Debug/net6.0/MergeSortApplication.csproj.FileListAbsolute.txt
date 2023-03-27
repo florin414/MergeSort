@@ -1,0 +1,16 @@
+C:\Users\florinmagadan\Desktop\New folder\MergeSortApplication\MergeSortApplication\bin\Debug\net6.0\MergeSortApplication.exe
+C:\Users\florinmagadan\Desktop\New folder\MergeSortApplication\MergeSortApplication\bin\Debug\net6.0\MergeSortApplication.deps.json
+C:\Users\florinmagadan\Desktop\New folder\MergeSortApplication\MergeSortApplication\bin\Debug\net6.0\MergeSortApplication.runtimeconfig.json
+C:\Users\florinmagadan\Desktop\New folder\MergeSortApplication\MergeSortApplication\bin\Debug\net6.0\MergeSortApplication.dll
+C:\Users\florinmagadan\Desktop\New folder\MergeSortApplication\MergeSortApplication\bin\Debug\net6.0\MergeSortApplication.pdb
+C:\Users\florinmagadan\Desktop\New folder\MergeSortApplication\MergeSortApplication\obj\Debug\net6.0\MergeSortApplication.csproj.AssemblyReference.cache
+C:\Users\florinmagadan\Desktop\New folder\MergeSortApplication\MergeSortApplication\obj\Debug\net6.0\MergeSortApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\florinmagadan\Desktop\New folder\MergeSortApplication\MergeSortApplication\obj\Debug\net6.0\MergeSortApplication.AssemblyInfoInputs.cache
+C:\Users\florinmagadan\Desktop\New folder\MergeSortApplication\MergeSortApplication\obj\Debug\net6.0\MergeSortApplication.AssemblyInfo.cs
+C:\Users\florinmagadan\Desktop\New folder\MergeSortApplication\MergeSortApplication\obj\Debug\net6.0\MergeSortApplication.csproj.CoreCompileInputs.cache
+C:\Users\florinmagadan\Desktop\New folder\MergeSortApplication\MergeSortApplication\obj\Debug\net6.0\MergeSortApplication.dll
+C:\Users\florinmagadan\Desktop\New folder\MergeSortApplication\MergeSortApplication\obj\Debug\net6.0\refint\MergeSortApplication.dll
+C:\Users\florinmagadan\Desktop\New folder\MergeSortApplication\MergeSortApplication\obj\Debug\net6.0\MergeSortApplication.pdb
+C:\Users\florinmagadan\Desktop\New folder\MergeSortApplication\MergeSortApplication\obj\Debug\net6.0\MergeSortApplication.genruntimeconfig.cache
+C:\Users\florinmagadan\Desktop\New folder\MergeSortApplication\MergeSortApplication\obj\Debug\net6.0\ref\MergeSortApplication.dll
+C:\Users\florinmagadan\Desktop\New folder\MergeSortApplication\MergeSortApplication\bin\Debug\net6.0\Resources\data.txt
