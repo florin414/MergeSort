@@ -12,8 +12,10 @@ internal class DataAccessInMemory
 
         while (streamReader.Peek() > -1)
         {
-            int value = int.Parse(streamReader.ReadLine() ?? "0");
-            List.Add(value);
+            if (int.TryParse(streamReader.ReadLine(), out int value))
+            {
+                List.Add(value);
+            }
         }
     }
 }
