@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\florinmagadan\\Desktop\\New folder\\MergeSortApplication\\MergeSortApplication\\MergeSortApplication.csproj": {}
+    "D:\\New folder\\MergeSort\\MergeSortApplication\\MergeSortApplication\\MergeSortApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\florinmagadan\\Desktop\\New folder\\MergeSortApplication\\MergeSortApplication\\MergeSortApplication.csproj": {
+    "D:\\New folder\\MergeSort\\MergeSortApplication\\MergeSortApplication\\MergeSortApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\florinmagadan\\Desktop\\New folder\\MergeSortApplication\\MergeSortApplication\\MergeSortApplication.csproj",
+        "projectUniqueName": "D:\\New folder\\MergeSort\\MergeSortApplication\\MergeSortApplication\\MergeSortApplication.csproj",
         "projectName": "MergeSortApplication",
-        "projectPath": "C:\\Users\\florinmagadan\\Desktop\\New folder\\MergeSortApplication\\MergeSortApplication\\MergeSortApplication.csproj",
+        "projectPath": "D:\\New folder\\MergeSort\\MergeSortApplication\\MergeSortApplication\\MergeSortApplication.csproj",
         "packagesPath": "C:\\Users\\florinmagadan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\florinmagadan\\Desktop\\New folder\\MergeSortApplication\\MergeSortApplication\\obj\\",
+        "outputPath": "D:\\New folder\\MergeSort\\MergeSortApplication\\MergeSortApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\florinmagadan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "BenchmarkDotNet": {
+              "target": "Package",
+              "version": "[0.13.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -96,5 +96,58 @@ internal class Sort
         return result;
     }
 
+    public List<int> TaskParallelMergeSort(List<int> list)
+    {
+        if (list.Count <= 1)
+        {
+            return list;
+        }
 
+        var middleIndex = list.Count / 2;
+        var leftList = list.GetRange(0, middleIndex);
+        var rightList = list.GetRange(middleIndex, list.Count - middleIndex);
+
+        var leftTask = Task.Run(() => TaskParallelMergeSort(leftList));
+        var rightTask = Task.Run(() => TaskParallelMergeSort(rightList));
+
+        Task.WaitAll(leftTask, rightTask);
+
+        return TaskParallelMerge(leftTask.Result, rightTask.Result);
+    }
+
+     private List<int> TaskParallelMerge(List<int> leftList, List<int> rightList)
+    {
+        var mergedList = new List<int>();
+        var leftIndex = 0;
+        var rightIndex = 0;
+
+        while (leftIndex < leftList.Count && rightIndex < rightList.Count)
+        {
+            if (leftList[leftIndex] < rightList[rightIndex])
+            {
+                mergedList.Add(leftList[leftIndex]);
+                leftIndex++;
+            }
+            else
+            {
+                mergedList.Add(rightList[rightIndex]);
+                rightIndex++;
+            }
+        }
+
+        while (leftIndex < leftList.Count)
+        {
+            mergedList.Add(leftList[leftIndex]);
+            leftIndex++;
+        }
+
+        while (rightIndex < rightList.Count)
+        {
+            mergedList.Add(rightList[rightIndex]);
+            rightIndex++;
+        }
+
+        return mergedList;
+    }
 }
+

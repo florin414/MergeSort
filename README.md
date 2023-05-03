@@ -21,14 +21,19 @@
 
 **Experimental results**
 
-Squential version: 2 Miliseconds
+Squential version: 1 Miliseconds
 
-Squential version: 20837 Ticks
+Squential version: 19758 Ticks
 ##
 
-PLINQ version: 101 Miliseconds
+PLINQ version: 69 Miliseconds
 
-PLINQ version: 1013274 Ticks
+PLINQ version: 696138 Ticks
+##
+
+TaskParallel version: 2 Miliseconds
+
+TaskParallel version: 25681 Ticksliseconds
 
 **Info about the machines on which I ran the code:**
 
